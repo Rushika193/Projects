@@ -1,0 +1,191 @@
+﻿
+
+    <style>
+        .Heading{
+            font-size:100px;
+            font-family:Monotype Corsiva;
+            color:crimson;
+            margin-left:20%;
+            
+        }
+
+         .text{
+            font-size:45px;
+            font-family:Monotype Corsiva;
+            float: right; 
+        }
+        .text2{
+            font-size:38px;
+            font-family:Monotype Corsiva;
+            float: right;
+            margin-left:47%; 
+            margin-top:12%;
+            margin-bottom:6%;
+           position:absolute;
+
+        }
+        .img{
+            height:450px;
+            width:420px;
+            border-radius:55%;
+            float:left;
+            margin-left:2%;
+             margin-top:17%;
+        }
+         .img1{
+            height:102px;
+            width:108px;
+            margin-left:9%;
+            margin-top:8%;
+            position:relative;
+            margin-right:1%;
+            margin-bottom:5%;
+            border-style:solid;
+            border-color:MidnightBlue;
+        }
+
+
+         #imgL{
+           position:relative;
+           margin-left:5%;
+           width:49%;
+           height:30%;
+           margin-right:2%;
+           top:55%;
+           background-color:PaleTurquoise; 
+
+           border-radius:203px 7px;
+           border:5px;
+           border-style: solid;
+           border-color:Green; 
+        }
+
+        .button{
+            border-radius:90px 7px;
+            border-style:solid;
+            background-color:NavajoWhite;
+            padding:3%;
+            width:22%;
+            margin-top:40%;
+            margin-left:47%;
+            font-size:20px;
+            font-family:Monotype Corsiva;
+        }
+        .button2{
+            border-radius:90px 5px;
+            border-style:solid;
+            background-color:NavajoWhite;
+            padding:3%;
+            width:22%;
+            margin-top:40%;
+            margin-left:52%;
+            font-size:20px;
+            height:23px;
+            font-family:Monotype Corsiva;
+        }
+
+        
+
+        .exp{
+            margin-top:4%;
+            height:45%;
+            width:40%;
+            border-radius:90px 5px;
+            border-style:solid;
+            border-color:grey;
+             background-color:lightgrey;
+        }
+        .exp2{
+            margin-top:3%;
+            height:45%;
+            width:40%;
+            border-radius:90px 5px;
+            border-style:solid;
+            border-color:grey;
+            background-color:lightgrey;
+
+        }
+        .exp3{
+            margin-top:3%;
+            height:45%;
+            width:40%;
+            border-radius:90px 5px;
+            border-style:solid;
+            border-color:grey;
+            background-color:lightgrey;
+        }
+        #text3{
+            font-family:Monotype Corsiva;
+            padding:8%;
+            font-size:25px;
+        }
+        .h{
+           font-family:Monotype Corsiva;
+           height:15%;
+           width:18%;
+           font-size:30px;
+           margin-left:5%;
+
+
+         }
+
+         #skill{
+             position:absolute;
+             float:right; 
+             margin-left:49%;
+             height:450px;
+             width:450px;
+             border-radius:50%;
+             top:78%;
+         }
+
+    </style>
+
+    <img  class="img" src="~/images/img.jpeg" asp-append-version="true"/>
+
+        <h1 class="Heading">Rushika Shrestha</h1>
+
+
+
+   <p class="text2"> Hello!!, I am <b style="color:cyan">Rushika Shrestha</b> Currently pursuing <b>Bachelors of Computer Science </b> 
+        from The NorthCap University.<br> I am a hardworker, quick learner and a good team player.<br><br>
+    <a class="button" asp-controller="Home" asp-action="About" >View My Profile</a></p>
+
+
+<div id="img2">
+   <center>
+ <h2 style="font-size: 70px; color:crimson;font-family:Monotype Corsiva; margin-top:62%"><b>Professional Skills</b></h2><br>
+</center>
+</div>
+
+<div id="imgL">
+   <img class="img1" src="~/images/knime.png" asp-append-version="true"/>
+   <img class="img1" src="~/images/tableau.png" asp-append-version="true"/>
+   <img class="img1" src="~/images/html.png" asp-append-version="true" />
+   <img class="img1" src="~/images/django.png" asp-append-version="true"/>
+   <img class="img1" src="~/images/python.png" asp-append-version="true"/>
+   <img class="img1" src="~/images/java.png" asp-append-version="true"/>
+   <img class="img1" src="~/images/c++.png" asp-append-version="true"/>
+
+
+</div>    
+
+<p style="font-family:monotype corsiva;font-size:35px;margin-left:58%;top:46%;position:absolute;margin-right:4%"> My strength lies on my dedication and creative thinking.
+I am proficient in <b>Python, Java, Html,Django  languages</b> and <b>data analytics tools like Tableau,Knime.</b></p>
+
+<a class="button2" asp-controller="Home" asp-action="Projects" >View My Projects</a>
+
+ <h2 style="font-family:Monotype Corsiva;font-size:70px;margin-top:12%;margin-left:7%; color:crimson; "><b>Work Experience</b></h2>
+<div class="exp">
+
+    <span style='font-size:34px;padding:15%;'>&#10024; Sparktalks Content writer Internship</span>
+</div>    
+<div class="exp2">
+
+   <span style='font-size:34px;padding:15%;'>&#10024; Braindigit Python Developer Internship</span>
+</div> 
+<div class="exp3">
+     <span style='font-size:34px;padding:15%;'>&#10024; Associative Software Engineer(Currently working)</span>
+</div> 
+
+<img id="skill" src="~/images/skills.jpg" asp-asp-append-version=True />
